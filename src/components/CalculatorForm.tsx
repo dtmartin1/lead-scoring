@@ -13,7 +13,7 @@ const CalculatorForm: React.FC<CalculatorFormProps> = ({ inputs, onInputChange }
       <h2 className="text-2xl font-bold text-gray-800 mb-6">Calculate Your Business Loan Score</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
+        {/* <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Amount Requested
           </label>
@@ -29,7 +29,7 @@ const CalculatorForm: React.FC<CalculatorFormProps> = ({ inputs, onInputChange }
               </option>
             ))}
           </select>
-        </div>
+        </div> */}
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">

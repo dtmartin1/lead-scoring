@@ -1,12 +1,12 @@
 export interface ScoringMatrix {
-  amountRequested: { label: string; score: number }[];
+  // amountRequested: { label: string; score: number }[];
   timeInBusiness: { label: string; score: number }[];
   monthlyRevenue: { label: string; score: number }[];
   creditScore: { label: string; score: number }[];
 }
 
 export interface UserInputs {
-  amountRequested: string;
+  // amountRequested: string;
   timeInBusiness: string;
   monthlyRevenue: string;
   creditScore: string;

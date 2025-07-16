@@ -34,7 +34,7 @@ const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ result }) => {
                 </div>
                 <div className="flex items-center">
                   <span className="text-lg font-bold text-blue-600 mr-2">{score.score}</span>
-                  <span className="text-sm text-gray-500">/4</span>
+                  <span className="text-sm text-gray-500">/100</span>
                 </div>
               </div>
             ))}
